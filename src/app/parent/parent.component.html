@@ -1,5 +1,4 @@
 <!-- dynamic-class.component.html -->
-<input type="text" [(ngModel)]="currentClass" placeholder="Inserisci una classe">
-<div [ngClass]="currentClass">Questo div cambia classe</div>
-
-<app-child [master]="name_user"></app-child>
+<app-child [master]="name_user"
+(newItemEvent)="addItem($event)"
+></app-child>
