@@ -1,16 +1,19 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-child01',
-  template: `<button (click)="notifyParent()">Notifica il genitore</button>`,
+  templateUrl: '../child01/child01.component.html',
   styleUrls: ['./child01.component.scss']
 })
 export class Child01Component implements OnInit {
 
-  @Output() notify: EventEmitter<void> = new EventEmitter<void>();
+  @Input() userName: string = '';
+  @Output() userNameChange: EventEmitter<string> = new EventEmitter<string>();
 
-  notifyParent() {
-    this.notify.emit();
+  onUserNameChange(event: Event) {
+    const inputElement = event.target as HTMLInputElement;
+    console.log(inputElement.value)
+    this.userNameChange.emit(inputElement.value);
   }
 
   constructor() { }
