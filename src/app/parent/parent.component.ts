@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
+  classArray: string[] = ['class1', 'class2', 'class3', 'class4'];
+  currentClass: string = '';
+
+
   constructor() { }
 
   ngOnInit(): void {

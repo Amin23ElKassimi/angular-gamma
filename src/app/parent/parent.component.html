@@ -1,1 +1,4 @@
-<p>parent works!</p>
+<!-- dynamic-class.component.html -->
+<input type="text" [(ngModel)]="currentClass" placeholder="Inserisci una classe">
+<div [ngClass]="currentClass">Questo div cambia classe</div>
+
