@@ -10,6 +10,8 @@ export class ParentComponent implements OnInit {
   classArray: string[] = ['class1', 'class2', 'class3', 'class4'];
   currentClass: string = '';
 
+  name_user: string ="Alessio";
+
 
   constructor() { }
 
