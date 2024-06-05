@@ -21,6 +21,7 @@ export class ChildComponent implements OnInit {
     this.newItemEvent.emit(value);
   }
 
+
   constructor() { }
 
   ngOnInit(): void {
