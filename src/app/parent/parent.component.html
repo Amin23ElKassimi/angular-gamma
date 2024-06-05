@@ -2,3 +2,6 @@
 <app-child [master]="name_user"
 (newItemEvent)="addItem($event)"
 ></app-child>
+<ul>
+    <li *ngFor="let item of items">{{item}}</li>
+  </ul>

@@ -20,12 +20,15 @@ export class ParentComponent implements OnInit {
 
   addItem(newItem: string) {
     this.items.push(newItem);
+    console.log(this.items)
   }
 
 
   constructor() { }
 
   ngOnInit(): void {
+
+    
   }
 
 }
