@@ -9,6 +9,7 @@ import { ChildComponent } from './child/child.component';
 import { Child01Component } from './child01/child01.component';
 import { Parent01Component } from './parent01/parent01.component';
 import { VarTemplateComponent } from './var-template/var-template.component';
+import { MethodVarTemplateComponent } from './method-var-template/method-var-template.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { VarTemplateComponent } from './var-template/var-template.component';
     ChildComponent,
     Child01Component,
     Parent01Component,
-    VarTemplateComponent
+    VarTemplateComponent,
+    MethodVarTemplateComponent
   ],
   imports: [
     BrowserModule,
