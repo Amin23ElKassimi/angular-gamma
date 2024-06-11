@@ -8,10 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class VarTemplateComponent implements OnInit {
 
 
-  logValue(value: string) {
-    console.log(value);
-  }
-
   constructor() { }
 
   ngOnInit(): void {
