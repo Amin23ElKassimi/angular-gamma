@@ -10,7 +10,8 @@ import { Child01Component } from './child01/child01.component';
 import { Parent01Component } from './parent01/parent01.component';
 import { VarTemplateComponent } from './var-template/var-template.component';
 import { MethodVarTemplateComponent } from './method-var-template/method-var-template.component';
-import { HiglightDirective } from './direttive/higlight.directive';
+import { HighlightDirective } from './direttive/highlight.directive';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HiglightDirective } from './direttive/higlight.directive';
     Parent01Component,
     VarTemplateComponent,
     MethodVarTemplateComponent,
-    HiglightDirective
+    HighlightDirective,
+
   ],
   imports: [
     BrowserModule,
