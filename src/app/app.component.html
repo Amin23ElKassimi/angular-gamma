@@ -1,4 +1,8 @@
 <!-- <app-parent></app-parent> -->
 <!-- <app-parent01></app-parent01> -->
 <!-- <app-var-template></app-var-template> -->
-<app-method-var-template></app-method-var-template>
+<!-- <app-method-var-template></app-method-var-template> -->
+
+<div appHighlight #highlightDirective="appHighlight">Testo evidenziato</div>
+
+<button (click)="highlightDirective.highlight('yellow')">Evidenzia</button>
