@@ -11,6 +11,7 @@ import { Parent01Component } from './parent01/parent01.component';
 import { HighlightDirective } from './direttive/highlight.directive';
 import { StandardPipesComponent } from './standard-pipes/standard-pipes.component';
 import { DateComponent } from './date/date.component';
+import { CurrencyPipeComponent } from './currency-pipe/currency-pipe.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { DateComponent } from './date/date.component';
     HighlightDirective,
     StandardPipesComponent,
     DateComponent,
+    CurrencyPipeComponent,
 
   ],
   imports: [
