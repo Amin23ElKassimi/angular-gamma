@@ -11,6 +11,9 @@ export class CurrencyPipeComponent implements OnInit {
 
   ratio: number = 0.1234;
 
+  items: string[] = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+  text: string = 'Hello Angular';
+
 
   constructor() { }
 

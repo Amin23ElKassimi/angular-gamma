@@ -8,3 +8,9 @@
   <p>Default: {{ ratio | percent }}</p>
   <p>Custom: {{ ratio | percent : "1.1-2" }}</p>
 </div>
+
+<div>
+  <h2>Pipe Slice</h2>
+  <p>Array Slice: {{ items | slice : 1 : 3 }}</p>
+  <p>String Slice: {{ text | slice : 6 : 12 }}</p>
+</div>
