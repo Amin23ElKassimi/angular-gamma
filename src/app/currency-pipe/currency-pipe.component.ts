@@ -9,6 +9,9 @@ export class CurrencyPipeComponent implements OnInit {
 
   amount: number = 1234.563432;
 
+  ratio: number = 0.1234;
+
+
   constructor() { }
 
   ngOnInit(): void {
